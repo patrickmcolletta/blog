@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.8'
 
+
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -46,7 +48,7 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg'
+  gem 'pg',"~>0.21"
   gem 'rails_12factor'
 end
 
